@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6CB936AA-ED1A-4B6C-803F-44D064D8601F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CD8B22D4-AEB3-45AC-BBAD-CDA9EBD4232D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "typoc", "src\typoc\typoc.fsproj", "{0E03A101-A230-4BB3-BE06-4B1C191471A2}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "typoc.Tests", "tests\typoc.Tests\typoc.Tests.fsproj", "{6DDB7527-40F8-4398-A1BC-031B5315291D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E03A101-A230-4BB3-BE06-4B1C191471A2} = {6CB936AA-ED1A-4B6C-803F-44D064D8601F}
+		{6DDB7527-40F8-4398-A1BC-031B5315291D} = {CD8B22D4-AEB3-45AC-BBAD-CDA9EBD4232D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E03A101-A230-4BB3-BE06-4B1C191471A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E03A101-A230-4BB3-BE06-4B1C191471A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E03A101-A230-4BB3-BE06-4B1C191471A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E03A101-A230-4BB3-BE06-4B1C191471A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DDB7527-40F8-4398-A1BC-031B5315291D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DDB7527-40F8-4398-A1BC-031B5315291D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DDB7527-40F8-4398-A1BC-031B5315291D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DDB7527-40F8-4398-A1BC-031B5315291D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
