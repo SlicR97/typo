@@ -1,2 +1,8 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
+﻿module typoc.Program
+
+open Microsoft.FSharp.Core
+
+[<EntryPoint>]
+let main _ =
+  printfn "Hello from F#"
+  0
